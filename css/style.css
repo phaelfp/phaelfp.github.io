@@ -1,9 +1,5 @@
 .bg-pibvpnav {
     background-color: rgba(33,66,99,25%);
-    float:right;
-}
-main > .container-fluid {
-    padding-top: 90px;
 }
 
 .bd-placeholder-img {
@@ -19,4 +15,9 @@ main > .container-fluid {
     .bd-placeholder-img-lg {
         font-size: 3.5rem;
     }
+}
+
+.btn-custom {
+    padding: 5px 15px;
+    border-radius: 50px;
 }
