@@ -61,12 +61,16 @@ body {
     padding-top: 6.5ex;
 }
 .bg-video-ministerio {
-    position: absolute;
+    position: fixed;
     left: 0;
     top: 0;
     width: 100%;
     z-index: -1000;
     background-size: cover;
+    background-color: #e9e9e9;
+}
+.bg-ministerio {
+    background-color: #e9e9e9;
 }
 #video-ministerio {
     position: absolute;
@@ -187,6 +191,7 @@ video.bd-placeholder-img {
 
 .pibvp-footer {
     background-image: url("./../images/ironpatern.png");
+    background-color: #e9e9e9;
     color:#000;
     padding-top: 50px;
     padding-bottom: 50px;
