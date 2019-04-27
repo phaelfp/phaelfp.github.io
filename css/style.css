@@ -2,6 +2,9 @@ body {
     color: #FFF;
     background-color: #e9e9e9;
 }
+.cor-txt {
+    color: #0e3042;
+}
 .carousel-caption {
     bottom: 3rem;
     z-index: 10;
@@ -54,6 +57,13 @@ body {
     overflow: hidden;
     height: 500px;
 }
+.contribua {
+    position: relative;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    overflow: hidden;
+    height: 700px;
+}
 .ministerios .row {
     justify-content: center;
 }
@@ -81,6 +91,25 @@ body {
     height: 500px;
     z-index: -1000;
 }
+.bg-video-contribua {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: -1000;
+    background-size: cover;
+    background-color: #e9e9e9;
+}
+#video-contribua {
+    position: absolute;
+    background-image: url("./../images/bg-contribua.png");
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 900px;
+    z-index: -1000;
+}
+
 video.bd-placeholder-img {
     width: 100%;
 }
